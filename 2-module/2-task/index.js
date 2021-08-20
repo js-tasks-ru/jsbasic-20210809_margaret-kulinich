@@ -1,6 +1,8 @@
+'use strict'
+
 function isEmpty(obj) {
   
-  for (key in obj) {
+  for (let key in obj) {
     return false;
   }
 

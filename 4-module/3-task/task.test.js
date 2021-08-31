@@ -1,4 +1,4 @@
-fdescribe('4-module-3-task', () => {
+describe('4-module-3-task', () => {
   it('Проставит класс available/unavailable, в зависимости от значения атрибута data-available у ячейки Status', () => {
     const table = document.createElement('table');
 

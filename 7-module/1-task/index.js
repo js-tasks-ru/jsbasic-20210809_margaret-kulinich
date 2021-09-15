@@ -3,6 +3,7 @@ import createElement from '../../assets/lib/create-element.js';
 export default class RibbonMenu {
   constructor(categories) {
     this.categories = categories;
+
     this.elem = createElement(this._ribbonTemplate());
     this._ribbonInner = this.elem.querySelector('.ribbon__inner');
     this._currentSlideId;
@@ -106,3 +107,7 @@ export default class RibbonMenu {
     this._currentSlideId = id;
   }
 }
+
+  }
+}
+
